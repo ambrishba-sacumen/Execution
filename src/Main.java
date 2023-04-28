@@ -3,10 +3,13 @@
 public class Main {
     public static void main(String[] args) {
         String s="welcome to company";
+
     char[] arr=s.toCharArray();
         for(char e:arr)
         {
             System.out.println(e);
         }
+        String s1=arr.toString();
+        System.out.println("converted to string");
     }
 }
